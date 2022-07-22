@@ -1,0 +1,9 @@
+import{_ as n}from"./plugin-vue_export-helper.21dcd24c.js";import{o as s,c as a,a as e}from"./app.488728be.js";const t={},i=e(`<h1 id="ios\u7AEF\u9875\u9762\u4E0A\u4E0B\u62C9-\u963B\u6B62\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#ios\u7AEF\u9875\u9762\u4E0A\u4E0B\u62C9-\u963B\u6B62\u65B9\u6CD5" aria-hidden="true">#</a> ios\u7AEF\u9875\u9762\u4E0A\u4E0B\u62C9\uFF0C\u963B\u6B62\u65B9\u6CD5</h1><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token punctuation">{</span>  
+    <span class="token string">&quot;path&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;pages/helpCenter/Index&quot;</span>,  
+    <span class="token string">&quot;style&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>  
+        <span class="token string">&quot;app-plus&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>  
+        <span class="token string">&quot;bounce&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;none&quot;</span>  
+        <span class="token punctuation">}</span>  
+    <span class="token punctuation">}</span>  
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>&quot;bounce&quot;: &quot;none&quot; \u914D\u4E0A\u8FD9\u4E2A</p>`,3),o=[i];function l(c,u){return s(),a("div",null,o)}var d=n(t,[["render",l],["__file","ios\u7AEF\u9875\u9762\u4E0A\u4E0B\u62C9,\u963B\u6B62\u65B9\u6CD5.html.vue"]]);export{d as default};

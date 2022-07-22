@@ -1,0 +1,24 @@
+import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";import{o as n,c as a,a as e}from"./app.488728be.js";const t={},l=e(`<h1 id="scroll-view\u5B9E\u73B0\u81EA\u5B9A\u4E49\u4E0B\u62C9\u5237\u65B0" tabindex="-1"><a class="header-anchor" href="#scroll-view\u5B9E\u73B0\u81EA\u5B9A\u4E49\u4E0B\u62C9\u5237\u65B0" aria-hidden="true">#</a> scroll-view\u5B9E\u73B0\u81EA\u5B9A\u4E49\u4E0B\u62C9\u5237\u65B0</h1><h3 id="\u4F7F\u7528scroll-view\u6807\u7B7E" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528scroll-view\u6807\u7B7E" aria-hidden="true">#</a> \u4F7F\u7528scroll-view\u6807\u7B7E</h3><p><strong>refresher-enabled=\u201Ctrue\u201D \u5F00\u542F\u4E0B\u62C9\u5237\u65B0</strong><strong>refresher-triggered \u8BBE\u7F6E\u5F53\u524D\u4E0B\u62C9\u5237\u65B0\u72B6\u6001\uFF0Ctrue \u8868\u793A\u4E0B\u62C9\u5237\u65B0\u5DF2\u7ECF\u88AB\u89E6\u53D1\uFF0Cfalse \u8868\u793A\u4E0B\u62C9\u5237\u65B0\u672A\u88AB\u89E6\u53D1</strong><strong>bindrefresherrefresh \u81EA\u5B9A\u4E49\u4E0B\u62C9\u5237\u65B0\u88AB\u89E6\u53D1\u4E8B\u4EF6</strong><strong>bindscrolltolower \u6EDA\u52A8\u5230\u5E95\u90E8\u89E6\u53D1\u4E8B\u4EF6</strong></p><p>\u9875\u9762\u5B9A\u4E49</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token operator">&lt;</span>scroll-view <span class="token assign-left variable">class</span><span class="token operator">=</span><span class="token string">&quot;content&quot;</span> <span class="token assign-left variable">style</span><span class="token operator">=</span><span class="token string">&quot;width:100%;height:100vh;&quot;</span>
+     refresher-triggered <span class="token operator">=</span> <span class="token string">&#39;{{loading}}&#39;</span> 
+     <span class="token assign-left variable">bindrefresherrefresh</span><span class="token operator">=</span><span class="token string">&quot;onRefresh&quot;</span>
+      refresher-enabled<span class="token operator">=</span><span class="token string">&quot;true&quot;</span>  
+      <span class="token assign-left variable">bindscrolltolower</span><span class="token operator">=</span><span class="token string">&quot;scrollToLower&quot;</span> 
+      scroll-y<span class="token operator">=</span><span class="token string">&quot;true&quot;</span><span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>/scroll-view<span class="token operator">&gt;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>js\u4E2D\u5B9A\u4E49</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>data: <span class="token punctuation">{</span>
+      // \u4E0A\u62C9\u5237\u65B0
+      loading:true
+  <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>\u4E0B\u62C9\u4E8B\u4EF6</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>/**
+   * \u4E0B\u62C9\u5237\u65B0
+   */
+  onRefresh: <span class="token function-name function">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    const self <span class="token operator">=</span> this<span class="token punctuation">;</span>
+    //\u5B9A\u65F6\u5668\uFF0C\u4E24\u79D2\u540E\u89E6\u53D1\u64CD\u4F5C
+    setTimeout<span class="token punctuation">((</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+      self.setData<span class="token punctuation">(</span><span class="token punctuation">{</span>
+        loading:false
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>, <span class="token number">2000</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,9),i=[l];function o(r,c){return n(),a("div",null,i)}var u=s(t,[["render",o],["__file","scroll-view\u5B9E\u73B0\u81EA\u5B9A\u4E49\u4E0B\u62C9\u5237\u65B0.html.vue"]]);export{u as default};
